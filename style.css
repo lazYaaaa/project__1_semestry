@@ -1,0 +1,21 @@
+
+.normal {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #631260;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 24px;
+    font-family: inherit;
+    margin: 50px 0px 0px 50%;
+    display: block;
+  }
+  .normal:hover {
+    background: #104ed3;
+  }
+  
+  .normal:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }

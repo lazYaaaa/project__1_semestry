@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flapppy menu</title>
+</head>
+<body style="background-image:url('img/bkk.jpg'); background-size: 100%;">
+        <script language="javascript" type="text/javascript">
+        function windowClose() {
+        window.open('','_parent','');
+        window.close();
+        }
+        </script>
+    <script>
+        const greetingValue = localStorage.getItem('greeting');
+      </script>
+    <h1 style="margin: 0px 0px 0px 50%; color: #621414">MultiFlappy</h1>
+    <link rel="stylesheet" href="style.css">
+    <button type = "button" onclick="window.location.href = 'page.html'" class = "normal"> Start </button> 
+    <button type = "button" class = "normal"> Choose</button> 
+    <button type = "button" onclick="localStorage.clear(); windowClose()" class = "normal"> Escape </button> 
+    <h1 style="margin: 0px 0px 0px 50%; color: #621414"> <script> document.write("Current score: " + greetingValue)</script></h1>
+    
+</body>
+</html>
